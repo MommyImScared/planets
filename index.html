@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="root">
+        <div class="sun">
+            <div class="sun-name">
+                <h1>S</h1>
+                <h1>U</h1>
+                <h1>N</h1>
+            </div>
+            <img src="sun.jpg" width="600px" height="600px" onclick="wikiSun()">
+        </div>
+        <div class="mercury">
+            <h3>Mercury</h3>
+            <img src="mercury.jpg" width="20px" height="20px" onclick="wikiMercury()">
+        </div>
+        <div class="venus">
+            <h3>Venus</h3>
+            <img src="venus.jpg" width="35px" height="35px" onclick="wikiVenus()">
+        </div>
+        <div class="earth">
+            <h3>Earth</h3>
+            <img src="earth.jpg" width="38px" height="38px" onclick="wikiEarth()">
+        </div>
+        <div class="mars">
+            <h3>Mars</h3>
+            <img src="mars.jpg" width="25px" height="25px" onclick="wikiMars()">
+        </div>
+        <div class="jupiter">
+            <h3>Jupiter</h3>
+            <img src="jupiter.jpg" width="90px" height="90px" onclick="wikiJupiter()">
+        </div>
+        <div class="saturn">
+            <h3>Saturn</h3>
+            <img src="saturn.jpg" width="110px" height="75px" onclick="wikiSaturn()">
+        </div>
+        <div class="uranus">
+            <h3>Uranus</h3>
+            <img src="uranus.jpg" width="50px" height="50px" onclick="wikiUranus()">
+        </div>
+        <div class="neptune">
+            <h3>Neptune</h3>
+            <img src="neptune.jpg" width="48px" height="48px" onclick="wikiNeptune()">
+        </div>
+        <div id="popup" class="modal">
+            <div class="modal-content">
+                <span id="closeBtn" class="close">&times;</span>
+                <iframe id="wikiFrame" src=""></iframe>
+            </div>
+        </div>
+    </div>
+     
+    <script src="script.js"></script>
+</body>
+</html>
